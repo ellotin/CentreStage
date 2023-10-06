@@ -7,10 +7,15 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import java.util.List;
 
 public class Robot {
-   public DcMotor leftSlide;
-   private List <DcMotor> Slides;
+   public class hardwareInitialization {
+      public DcMotor leftSlide;
+      private List<DcMotor> slideMotors;
 
-   leftSlide = hardwareMap.get(DcMotor.class, "leftSlide");
-   rightSlide = hardwareMap.get(DcMotor.class, "rightslide";
+      leftSlide =hardwareMap.get(DcMotor .class,"leftSlide");
+      rightSlide =hardwareMap.get(DcMotor .class,"rightslide";
 
+      slideMotors =Arrays.asList(leftSlide,rightSlide);
+
+   for())
+   }
 }
